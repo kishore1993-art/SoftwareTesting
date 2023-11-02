@@ -1,0 +1,67 @@
+Requirement
+
+1) What’s full form of SRS?
+A)  Software Requirement Specifications
+2) Why SRS is important in Manual Testing?
+A) a comprehensive description of the intended purpose and environment for software under development. The SRS fully describes what the software will do and how it will be expected to perform.
+3) What is Use Cases?
+A) Use cases describe the functional requirements of a system from the end user's perspective, creating a goal-focused sequence of events that is easy for users and developers to follow. A complete use case will include one main or basic flow and various alternate flows.
+4) Design 5 different Use Cases?
+A) 
+5) What are Non-functional Requirement in SRS?
+A) Non-functional requirements or NFRs are a set of specifications that describe the system's operation capabilities and constraints and attempt to improve its functionality. These are basically the requirements that outline how well it will operate including things like speed, security, reliability, data integrity, etc.
+6) Design an Use Case Diagram? Describe briefly.
+A) 
+
+Test Cases
+
+Q) What is a Test Case?
+A) test case is a set of actions performed on a system to determine if it satisfies software requirements and functions correctly.
+
+Q) List out level of Test Cases? What are fields of a Test case Template?
+A)TestCaseId. This field uniquely identifies a test case.
+Component/Module. This field specifies the specific component or module that the test case belongs to. ...
+Priority,Description,Pre-requisites,Test Steps,Test Data,Expected Result.
+
+Q) Write test cases for Gmail Login? Give at least 5 examples?
+1       Verify if a user will be able to login with a valid username and valid password.	Positive
+2	Verify if a user cannot login with a valid username and an invalid password.	Negative
+3	Verify the login page for both, when the field is blank and Submit button is clicked.	Negative
+4	Verify the ‘Forgot Password’ functionality.	Positive
+5	Verify the messages for invalid login.	Positive
+6	Verify the ‘Remember Me’ functionality.	Positive
+7	Verify if the data in password field is either visible as asterisk or bullet signs.	Positive
+8	Verify if a user is able to login with a new password only after he/she has changed the password.	Positive
+9	Verify if the login page allows to log in simultaneously with different credentials in a different browser.	Positive
+10	Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.	Positive
+Other Test Cases
+11	Verify the time taken to log in with a valid username and password.	Performance & Positive Testing
+12	Verify if the font, text color, and color coding of the Login page is as per the standard.	UI Testing & Positive Testing
+13	Verify if there is a ‘Cancel’ button available to erase the entered text.	Usability Testing
+14	Verify the login page and all its controls in different browsers	Browser Compatibility & Positive Testing.
+
+Q) Design 3 positive Test cases and 3 negative test cases regarding: http://newtours.demoaut.com
+A) (POSTIVE TEST CASES)
+   Verify user enter correct URL in any browser  
+   Verfiy after entering the correct URL user navigates to currect website
+   Verfiy user able to tap on headers available in websites
+   (NEGATIVE TEST CASES)
+   Verify user enter incorrect URL and validate that error message will shown
+   Verify after enetring homepage try to tap any where in dashborad and observe its navigating to any page from the website
+  
+Q) What problems you face in writing test cases?
+A) Finding tyhe positive and negative test cases
+
+Q) What is called a good Test Case? What is a bad Test Case?
+A) Good test case:An effective test case design will be: Accurate, or specific about the purpose. Economical, meaning no unnecessary steps or words are used. Traceable, meaning requirements can be traced.
+   Bad test cases:Negative test cases are used to test the system for invalid inputs and unexpected behaviors
+
+Q) What are guidelines for writing Test Cases?
+A) Document test cases,Test data,Expected result,Test steps,testCaseId,Actual result,Avoid test case repetition,Test scenario,Keep test case ids unique
+
+Q) What is Test Data? Why is it important?
+A) test data is very important in testing, because it determines if an application works as expected and it also helps in catching bugs if the data entered is alphanumeric but the requirements only says it should only accept numbers then the application did not throw an error.
+
+Q) Develop Test cases for Flight Reservation Application?
+
+(Use standard guidelines to write your test cases. Cover all sections provided in SRS).
